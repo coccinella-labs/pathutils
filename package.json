@@ -1,5 +1,5 @@
 {
-  "name": "@harpertoken/cross-platform-path-utils",
+  "name": "@coccinella-labs/cross-platform-path-utils",
   "version": "0.1.0",
   "description": "TypeScript utilities for cross-platform path handling and secure file operations",
   "files": [
@@ -31,7 +31,7 @@
   "author": "Niladri Das",
   "license": "MIT",
   "publishConfig": {
-    "@bniladridas:registry": "https://npm.pkg.github.com"
+    "@coccinella-labs:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",

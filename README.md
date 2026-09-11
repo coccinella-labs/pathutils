@@ -8,14 +8,17 @@ TypeScript utilities for cross-platform path handling and secure file operations
 
 ## Install
 
+Published to GitHub Packages. Point the scope at the registry first:
+
 ```bash
-npm install @harpertoken/cross-platform-path-utils
+npm config set @coccinella-labs:registry https://npm.pkg.github.com
+npm install @coccinella-labs/cross-platform-path-utils
 ```
 
 ## Usage
 
 ```ts
-import { createPath, resolveFromFile, isPathInDirectory, safeReadFile } from "@harpertoken/cross-platform-path-utils";
+import { createPath, resolveFromFile, isPathInDirectory, safeReadFile } from "@coccinella-labs/cross-platform-path-utils";
 
 const p = createPath("data", "models", "m.json");
 const root = resolveFromFile(import.meta.url, "..");
