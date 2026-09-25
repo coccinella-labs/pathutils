@@ -2,8 +2,6 @@
   <img src="https://raw.githubusercontent.com/Coccinella-Labs/pathutils/main/.github/assets/thumbnail.png" alt="pathutils" width="100%">
 </p>
 
-path handling for node.js.
-
 TypeScript utilities for cross-platform path handling and secure file operations (Node 14+).
 
 ## Install
