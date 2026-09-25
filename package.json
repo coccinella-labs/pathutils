@@ -28,7 +28,7 @@
     "path-handling",
     "file-operations"
   ],
-  "author": "Niladri Das",
+  "author": "Coccinella Labs",
   "license": "MIT",
   "publishConfig": {
     "@coccinella-labs:registry": "https://npm.pkg.github.com"
